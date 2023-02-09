@@ -372,4 +372,4 @@ func (cs *checkoutService) shipOrder(ctx context.Context, address *pb.Address, i
 	return resp.GetTrackingId(), nil
 }
 
-// TODO: Dial and create client once, reuse.
+// NHTT Workshop: Looking for the problematic service in this workshop? You might want to check out shippingservice/main.go :)
